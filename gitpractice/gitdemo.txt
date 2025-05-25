@@ -68,7 +68,7 @@ Git Branching Commands :
     -> git branch -d <-branch name-> (to delete branch)
      
 
-    // testing branch
+    // testing branch done by sample 3
 
 to update in the branch: 
     -> 2nd branch to main branch :
