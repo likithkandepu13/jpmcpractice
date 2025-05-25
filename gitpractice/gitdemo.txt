@@ -68,6 +68,8 @@ Git Branching Commands :
     -> git branch -d <-branch name-> (to delete branch)
      
 
+    // testing branch
+
 to update in the branch: 
     -> 2nd branch to main branch :
         --> git push origin 2ndbranch
