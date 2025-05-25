@@ -1,0 +1,118 @@
+Basics concepts of working wiht the GIT:
+--------------------------------
+
+git --version : get the version of the git 
+
+----------
+
+configuring git :
+    - git config --global user.name "My name"
+    - git config --global user.email "myemail"
+    - git config --list    // gives the deatils of what got connected here.
+
+-> git init
+-> git remote add origin <- link >  
+-> git remote -v ( to verify remote) 
+-> git branch ( to check branch )
+-> git branch -M main ( to rename branch )
+
+------------------------
+Clone & Status :
+    - CLone 
+        - git clone git-link
+    - Status
+        - git status // gives the status of the repo
+----------------------------
+ls // gives the files
+ls -a // gives the hidden files 
+
+words:
+    -> untracked : new files that git doest yet tracked
+    -> modified : changed
+    -> staged : file is ready to be commited 
+    -> unodifies : unchaged
+
+git add : 
+-> git add <-file-name>
+-> git add . // add all the files
+
+git commit : it record the changed
+-> git commit -m "message to commit"
+
+-----------------------
+
+PUSH Command :
+puch - upload local repo content to remote repo
+
+-> git push origin main
+            // origin : remote repo ka naam
+
+
+----------------------------------
+
+Git work flow:
+    -> Clone
+    -> Chnages
+    -> add
+    -> commit 
+    -> push
+
+---------------------------------------
+Git Branches :
+    -> seperate branches can be created to commit them and merge it ex: features
+
+Git Branching Commands :
+    -> git branch ( to check branch)
+    -> git checkout <branch-name> ( to navigate thenew beanch)
+    -> git checkout -b <-new branch name>  (to create new branch)
+    -> git branch -d <-branch name-> (to delete branch)
+     
+
+to update in the branch: 
+    -> 2nd branch to main branch :
+        --> git push origin 2ndbranch
+// 2ndbranch lo unnadi main code lo update avthadi.
+
+// merging code:
+    -> git diff <-branch-name-> ( to comapre commits, branches , files & more)
+    -> git merge <-branch-name> ( to merge 2 branches)
+
+// pull requests:
+it lets you tell others about changes you'hve pushed to a branchin repository on GitHub.
+--> it is a request to merge their own code to the main branch.
+
+pr-----> review.
+-> create a pull request
+
+----------------------
+remote to local we need to pull the content:
+
+--> git pull origin main
+
+------------------------
+
+
+resolving merge conflicts :
+happens when git is unable to automatically resove diff  in code between two commits 
+
+-------------------------
+
+Undoing Chnages :
+-->
+Case -1 : Staged changes:  // added nundi tesetundi 
+        -> git reset <-file-name->
+        -> git reset 
+Case-2 : commited changes: 
+        -> git reset Head~1
+Case-3 : commited changes for many commits
+        -> git reset <-commit hash->
+        -> git reset --hard <-commit hsh->
+
+
+-----------------------
+
+Fork : a new repo that share code and visibility settings with the original upstream repo.
+its a rough copy
+ 
+
+ ONe branch can only create one PR only, Its better to have multiple branch for each features

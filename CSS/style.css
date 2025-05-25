@@ -1,0 +1,102 @@
+h2 {
+    color:teal; 
+    text-align: center; /*makes text center*/
+    /* font-weight: normal;
+    font-weight: bold;
+    font-weight: bolder;
+    font-weight: 100;
+    font-weight: 900; 
+    the display of the tesxt about bolding it
+    */
+    font-weight: bold;
+    /* text-decoration: underline;
+    text-decoration: underline dotted;
+    etc.. */
+    text-decoration: underline dotted;
+    line-height: 1.5; /*distance between the gap of the text height here */
+    letter-spacing: 10px;/*space between the letters*/
+    word-spacing: 20px; /*space between the words*/
+    text-transform: uppercase; /*makes the text all upper case*/    
+    text-shadow: 2px 2px 5px red; /*makes the text shadow*/
+    background-color: lightblue; /*makes the background color of the text*/
+    padding: 20px; /*makes the padding of the text*/
+    margin: 20px; /*makes the margin of the text*/
+    border: 2px solid black; /*makes the border of the text*/
+    border-radius: 10px; /*makes the border radius of the text*/
+    box-shadow: 5px 5px 5px gray; /*makes the shadow of the text*/
+    font-size: 30px; /*makes the font size of the text*/
+    font-family: 'Courier New', Courier, monospace; /*makes the font family of the text*/
+    font-style: italic; /*makes the font style of the text*/
+    font-variant: small-caps; /*makes the font variant of the text*/
+    text-align: center; /*makes the text center*/
+    text-indent: 20px; /*makes the text indent of the text*/
+
+
+}
+
+button {
+    color:magenta;
+}
+p{
+    color: olive;
+    background-color: gray;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 20px; 
+}
+
+/*   CSS Selector* /
+
+/* we   have seen many examples but now 
+*/
+
+/* for selecting everythong */
+* {
+    color: red;
+    background-color: lightblue;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 20px; 
+}
+/* select all images */
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px gray;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+}
+h1,h2 {
+    color: blue;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 20px; 
+}
+
+/* id selector */
+/* example in the html file  we gave id="name"*/
+#name {
+    color: red;
+    background-color: lightblue;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 20px; 
+}
+
+/* class selector */
+/* example in the html file  we gave class="name" like grouping there every single thing use in div, nav all elements using the class=,  for them multiple.*/
+.span {
+    color: red;
+    background-color: lightblue;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 20px; 
+}

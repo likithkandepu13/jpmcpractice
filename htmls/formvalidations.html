@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validations</title>
+</head>
+<body>
+    <h1> Validations Demo</h1>
+    <form>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <br><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>    
+        <input type="text" id="username" name="username" placeholder="Enter your username" min="1" max="10" required>
+        <br><br>
+        <button type="submit">Submit</button>
+<!--    Patterns in the forms-->
+        <input type="text" id="phone" name="phone" placeholder="Enter your phone number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+        <br><br>
+        <input type="text" id="zip" name="zip" placeholder="Enter your zip code" pattern="[0-9]{5}" required>
+        <br><br>
+        <input type="text" id="ssn" name="ssn" placeholder="Enter your SSN" pattern="[0-9]{3}-[0-9]{2}-[0-9]{4}" required>
+        <br><br>
+
+    </form>
+</body>
+</html>

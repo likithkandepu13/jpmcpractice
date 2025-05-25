@@ -1,0 +1,67 @@
+CSS - Cascadling Style Sheets.
+Visual representation of our Document.
+
+-> CSS RULES:
+---------------
+
+selector {
+    property : value;
+}
+
+ex: 
+h1{
+    color:purple;
+    width: 100px;
+    height : 200px;
+}
+
+inpur[type="text"] : nth-of-type(2n){
+    border:2px solid red;
+}
+
+-------------------------------------------------
+
+Including Styles :
+
+1. Inline in Html elements:
+    -> <h1 style="color: black"> Black color </h1>
+    <button style="bg-color : blue">Submit</button>
+
+2. Using <style> </style>:
+
+    -> <style>
+    h2 {
+        color: blue;
+    }
+    </style>
+
+3. Writing a styles in a new sheet:
+    -> style.css:
+        --> h2{
+            color:indigo;
+        }
+    -> index.html:
+        --> <head>
+            <title> Demo CS</title>
+            <link rel="stylesheet" href="style.css">
+        </head>
+
+
+-------------------------------------------
+
+CSS Colors:
+----------
+
+Named Colors: 
+    -> 140 named colors :  
+
+CSS Text Properties :
+-------------------
+text-align
+font-weight
+text-decoration
+line-height
+letter-spacing
+font-size
+
+

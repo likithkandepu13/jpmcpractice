@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--    HTML FOrms contains about the inputs and etcc..-->
+    <h1>HTML Forms</h1>
+    <form action="" method="post">
+        <label for="name">Name </label>
+        <input type="text" id="name" name="name" placeholder="Enter your name"> 
+    </form>
+    <form>
+        <!--we have various inputs here-->
+        <!-- we have have TYPE chenage the behaviour-->
+         <!--input wont have any ending tag-->
+         <!--
+         types of inputs:
+            1. text
+            2. password
+            3. email
+            4. number
+            5. date
+            6. file
+            7. radio
+            8. checkbox
+            9. range
+            10. color
+            11. submit
+            12. reset
+            13. button
+            14. hidden
+            15. search
+            16. tel
+            17. url
+            18. time
+            19. month
+            20. week
+            21. datetime-local
+            22. image
+            etc..
+         
+         -->
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+            <input type="password" id="password" name="password" placeholder="Enter your password">
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+            <input type="number" id="number" name="number" placeholder="Enter your number">
+            <input type="date" id="date" name="date" placeholder="Enter your date"> 
+            <input type="file" id="file" name="file" placeholder="Enter your file">
+            <input type="radio" id="radio" name="radio" placeholder="Enter your radio">
+            <input type="checkbox" id="checkbox" name="checkbox" placeholder="Enter your checkbox">
+            <input type="range" id="range" name="range" placeholder="Enter your range">
+            <input type="color" id="color" name="color" placeholder="Enter your color">
+            <input type="submit" id="submit" name="submit" value="Submit">
+            <input type="reset" id="reset" name="reset" value="Reset">
+            <input type="button" id="button" name="button" value="Button">
+            <input type="hidden" id="hidden" name="hidden" value="Hidden">
+            <input type="search" id="search" name="search" placeholder="Enter your search">
+            <input type="tel" id="tel" name="tel" placeholder="Enter your tel">
+            <input type="url" id="url" name="url" placeholder="Enter your url">
+            <input type="time" id="time" name="time" placeholder="Enter your time">
+            <input type="month" id="month" name="month" placeholder="Enter your month">
+            <input type="week" id="week" name="week" placeholder="Enter your week">
+            <input type="datetime-local" id="datetime-local" name="datetime-local" placeholder="Enter your datetime-local">
+            <input type="image" id="image" name="image" placeholder="Enter your image">
+    </form> 
+
+    <!-- Labels and their types-->
+     <form>
+        <label for="name">Name </label>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+        <label for="password">Password </label>
+        <input type="password" id="password" name="password" placeholder="Enter your password">
+        <label for="email">Email </label>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+        <label for="number">Number </label>
+        <input type="number" id="number" name="number" placeholder="Enter your number">
+        <label for="date">Date </label>
+        <input type="date" id="date" name="date" placeholder="Enter your date">
+     </form>
+
+     <!--Buttons -->
+     <form action="www.google.com" method="post">
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <button type="button">Button</button>
+        <button type="hidden">Hidden</button>
+        <button type="search">Search</button>
+        <button type="tel">Tel</button>
+        <button type="url">URL</button>
+        <button type="time">Time</button>
+     </form>
+
+     <!--   Name Attribute !!-->
+    <!--
+     
+    Name : Use dfor the HTTP request, and canot be unquie
+    example: name="name" name="email" name="password"
+    id : Used for the HTML element, and must be unique
+    example: id="name" id="email" id="password"
+    now, name is used for the HTTP request, and id is used for the HTML element
+    -->
+
+    <!-- how the search  works actually?    
+    -->
+    <form action="https://www.google.com" >
+        <input type="text" name="q">
+        <button>Search Results</button>
+    </form> 
+
+
+    <!-- Buttons , Checkoxes & Selects -->
+     <form action="">
+        <input type="checkbox" id="checkbox1" name="checkbox1" value="checkbox1" checked>
+        <label for="checkbox1">Yes I agree here</label>
+        <button type="submit">Submit</button> 
+     </form>
+     <!--   Radio buttons-->
+     <form acction="/sai" method="post">
+        <input type="radio" id="radio1" name="radio1"  value="99" checked >
+        <label for="radio1">43</label>
+        <input type="radio" id="radio2" name="radio1"  value="22">
+        <label for="radio2">33</label>
+        <input type="radio" id="radio3" name="radio1" value="42">
+        <label for="radio2">99</label>
+        
+        <button type="submit">Submit</button>
+     </form>
+
+     <!-- Select option button-->
+      <form>
+        <select name="cars" id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </select>
+        <button type="submit">Submit</button>
+      </form>
+
+      <!-- Range and Text Area-->
+        <form>
+            <label for="range">Range</label>
+            <input type="range" id="range" name="range" min="1" max="100" step="2">
+            <label for="textarea">Text Area</label>
+            <textarea id="textarea" name="textarea" rows="4" cols="50"></textarea>
+            <button type="submit">Submit</button>
+
+</body>
+</html>
