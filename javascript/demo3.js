@@ -30,6 +30,8 @@ let nums = [1, 2, 3, 4, 5];
 let nums2 = [6, 7, 8, 9, 10];
 nums= nums.concat(nums2);
 console.log("Concatenated Array:", nums); // Output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+
 // slice extracts a section of an array and returns it as a new array
 const slicedArray = nums.slice(2, 5);
 console.log("Sliced Array:", slicedArray); // Output: [3, 4, 5]
@@ -68,4 +70,5 @@ console.log("Sorted Array:", sortedArray); // Output: [1, 2, 6, 7, 8, 9, 10, 11,
 // fill fills all elements of an array from a start index to an end index with a static value
 const filledArray = nums.fill(0, 2, 5);
 console.log("Filled Array:", filledArray); // Output: [1, 2, 0, 0, 0, 9, 10, 11, 12]
+
 
