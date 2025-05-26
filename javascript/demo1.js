@@ -100,3 +100,13 @@ let mes = `Hello, ${firstName} ${lastName}!`; // "Hello, John Doe!"
 console.log("Template literal message:", mes); // Output: Hello, John Doe!
 
 
+//---------------------------------------------
+//null and undefined
+// null and undefined are both used to represent the absence of a value
+let nullValue = null; // explicitly set to null
+let undefinedValue; // implicitly undefined
+console.log("Null value:", nullValue); // Output: Null value: null
+console.log("Undefined value:", undefinedValue); // Output: Undefined value: undefined
+// typeof operator
+console.log("Type of nullValue:", typeof nullValue); // "object" (this is a known JavaScript quirk)
+console.log("Type of undefinedValue:", typeof undefinedValue); // "undefined"
