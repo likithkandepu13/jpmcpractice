@@ -1,2 +1,8 @@
 “From your experience, how do you recommend balancing features with simplicity — especially for non-technical users?”
 
+Question	What It Shows
+“What do you enjoy most about working at JPMC?”	Curiosity, professionalism
+“What kind of projects do new grads or interns usually start with?”	You’re thinking long-term
+“How does your team stay updated with new technologies?”	You care about learning
+“How does JPMC support work-life balance in tech teams?”	Shows maturity
+“What does mentorship look like at JPMC outside events like this?”	Long-term interest
