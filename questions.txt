@@ -25,3 +25,14 @@ Don’t Say	Say This Instead
 “I don’t know…”	“We’re still figuring that part out.”
 “Maybe we can try…”	“One idea we’re considering is…”
 “We’re confused…”	“We’re exploring a couple of options right now.”
+
+-------------
+
+🧠 2. Conversation Warm-Up Phrases
+Use these naturally to start mentor convos or keep them flowing:
+
+“Can I share our idea quickly and get your take?”
+
+“We’ve been iterating based on feedback, would love your opinion on this version.”
+
+“We simplified this part after yesterday’s input — what do you think now?
