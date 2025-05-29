@@ -36,3 +36,16 @@ Use these naturally to start mentor convos or keep them flowing:
 “We’ve been iterating based on feedback, would love your opinion on this version.”
 
 “We simplified this part after yesterday’s input — what do you think now?
+
+-------------------------
+
+we all are heare for trying our best for the recruitment process, but apart
+ from that now oue main agenda is to keep our team strong and present the best solution for the NGO. 
+
+ -------------------------------
+
+ Before solution we may have different things coming up.
+ -> Description : A clear and specific overview of the current state of things 
+ -> Success Criteria : How excatly will you know you have solved the problem .
+
+ 
