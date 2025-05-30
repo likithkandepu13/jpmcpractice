@@ -48,4 +48,15 @@ we all are heare for trying our best for the recruitment process, but apart
  -> Description : A clear and specific overview of the current state of things 
  -> Success Criteria : How excatly will you know you have solved the problem .
 
+
+_____________________________________-
+
+✅ 1. Structure for a 60-Second Project Pitch
+Here’s a plug-and-play format:
+
+1. Problem: What are you solving?
+2. Users: Who is facing this problem?
+3. Solution: What exactly are you building?
+4. Tech: What’s your stack?
+5. Impact: Why will this help?
  

@@ -1,0 +1,86 @@
+// questions before the brainstromming session :
+-> 
+"You are an expert facilitator, Dratt 8-10
+Open-ended questions to help Our team
+understand the core mission, pain points.
+and success metrics of a non-profit
+focused on ecause>
+
+
+--------------------------------------
+•Based on a non profit that serves
+<benef iciary_group» , generate 3
+detailed user personas (with goals,
+frustratims, and context) to guide feature
+prioritization. •
+
+
+------------------------------
+1. Requirements & Discovery
+
+1 , Interview Facilitator
+•You Me an expert facilitator. Draft 8—10 open-ended questions to help our team understand the core mission, pain
+points. and success metrics ot a non-profit focused on «cause»
+2. User persona Builder
+•Based On a non-profit that serves <beneficary_group></beneficary_group> , generate 3 detailed user personas (with goals.
+frustrations. and context) to guide feature prioritization."
+3. Use-Case Extractor
+•Given this mission statement: list use cases (acW -i action -i outcome) that capture what end
+users need to accomplish-•
+
+-------------------------
+2. Planning & Estimation
+
+1. MVP Scope Definition
+EWe have me weekerxi to deliver an MVP for a ecause> non-profit. Propose a nülirnal feature set (3—5 featwe
+that maxirrizes and Can be built in 48 hOutS.•
+2. Technical Stack Advisor
+•Recornrnend a lightweight, free/cloud-tier tech stack (frontend, backend, database) ideal for rapid ard
+low-rnaintenance hosting for a non-profit-•
+3, & Mitigation planner
+•Identify the top S technical or operational risks in building a donation-tracking platform, and for each, a
+sirnp/e or fallback,'
+
+====================================
+
+6. Deployment & Monitoring
+
+1. Deployment Runbook Creator
+•Draft a step-by-step deployment runbook to AWS'GCPjA2ure Our Node.js app. including environment setup.
+buld, and rollback.•
+2. Monitoring & Alerts Planner
+•Recommend S key metrics ard corresponding alert thresholds to monitor uptime. error rates, and performance tor
+a non-profit service.•
+3. Post-Launch Feedback Collector
+'Compose a short in-app survey (3—5 questions) to gather user feedback first impressions and pain points,
+phrased in an inclusive
+
+--------------------------------------------------
+6. Deployment & Monitoring
+
+1. Deployment Runbook Creator
+EDratt a step-by-step deployment runbook to AWSlGCP/Azure for our Nodejs including environment setup,
+buld, and rollback.'
+2. & Alerts Planner
+'Recomrnend 5 key metrics and corresponding alert thresholds to monitc« uptime. error rates. and performance tor
+a web service.'
+3. Post•Lmmch Feedback
+•Compose a short in-app survey (3—5 questions) to gather user feedback first impressions and pain points,
+phrased in an inclusive torw.•
+
+---------------------------------------------
+
+7. Documentation & Handoff
+1. user Manual Drafter
+•Write a beginner-friendly user guide for non-technical staff to onboard •Olunteers, illustrated with simpl
+descriptions.'
+2. API
+•Produce a markdown-based API reference ternp'ate (endpoints, parameters, examples) that can be dro
+1. user Manual O
+•Write a
+2. API
+•produce a n
+Snipping Tool
+
+---------------------------
+Firebse studio, Claud Ai, cursor, lovebale etc..
