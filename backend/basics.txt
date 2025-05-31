@@ -1,0 +1,7 @@
+// basics on how to use the command line:
+
+-> ls : to list out the commands
+-> pwd : preent working directory
+-> cd : change directory
+-> mkdir : to make the directory
+-> touch : to create a new file
